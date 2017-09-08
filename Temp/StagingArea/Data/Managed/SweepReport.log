@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2616
+  Total Type Removals = 2614
     Nested = 146
     Interfaces = 170
     Abstract Classes = 183
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 193
   Total Field Removals = 786
-  Total Method Removals = 8751
+  Total Method Removals = 8794
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9516,7 +9516,7 @@ Summary:
 Assembly: UnityEngine
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 966
+  Total Type Removals = 964
     Nested = 12
     Interfaces = 35
     Abstract Classes = 55
@@ -9525,7 +9525,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 60
   Total Field Removals = 33
-  Total Method Removals = 2416
+  Total Method Removals = 2459
   References Removed = 0
 ---------------------------------------------------
     AOT.MonoPInvokeCallbackAttribute
@@ -9702,7 +9702,6 @@ Summary:
         get_loadedLevel()
         get_loadedLevelName()
         get_persistentDataPath()
-        get_platform()
         get_productName()
         get_runInBackground()
         get_sandboxType()
@@ -10919,10 +10918,6 @@ Summary:
     UnityEngine.GUIUtility
     UnityEngine.GUIWordWrapSizer
     UnityEngine.Gyroscope
-        m_GyroIndex
-        .ctor(System.Int32)
-        attitude_Internal(System.Int32)
-        get_attitude()
         get_enabled()
         get_gravity()
         get_rotationRate()
@@ -10932,16 +10927,13 @@ Summary:
         getEnabled_Internal(System.Int32)
         getUpdateInterval_Internal(System.Int32)
         gravity_Internal(System.Int32)
-        INTERNAL_CALL_attitude_Internal(System.Int32,UnityEngine.Quaternion&)
         INTERNAL_CALL_gravity_Internal(System.Int32,UnityEngine.Vector3&)
         INTERNAL_CALL_rotationRate_Internal(System.Int32,UnityEngine.Vector3&)
         INTERNAL_CALL_rotationRateUnbiased_Internal(System.Int32,UnityEngine.Vector3&)
         INTERNAL_CALL_userAcceleration_Internal(System.Int32,UnityEngine.Vector3&)
         rotationRate_Internal(System.Int32)
         rotationRateUnbiased_Internal(System.Int32)
-        set_enabled(System.Boolean)
         set_updateInterval(System.Single)
-        setEnabled_Internal(System.Int32,System.Boolean)
         setUpdateInterval_Internal(System.Int32,System.Single)
         userAcceleration_Internal(System.Int32)
     UnityEngine.Halo
@@ -11008,7 +11000,6 @@ Summary:
         get_compositionString()
         get_deviceOrientation()
         get_eatKeyPressOnTextFieldFocus()
-        get_gyro()
         get_imeCompositionMode()
         get_imeIsSelected()
         get_inputString()
@@ -11049,7 +11040,6 @@ Summary:
         INTERNAL_get_compositionCursorPos(UnityEngine.Vector2&)
         INTERNAL_get_mouseScrollDelta(UnityEngine.Vector2&)
         INTERNAL_set_compositionCursorPos(UnityEngine.Vector2&)
-        mainGyroIndex_Internal()
         ResetInputAxes()
         set_backButtonLeavesApp(System.Boolean)
         set_compensateSensors(System.Boolean)
@@ -12443,7 +12433,6 @@ Summary:
     UnityEngine.RuntimeAnimatorController
     UnityEngine.RuntimeInitializeLoadType
     UnityEngine.RuntimeInitializeOnLoadMethodAttribute
-    UnityEngine.RuntimePlatform
     UnityEngine.RuntimeUndo
     UnityEngine.ScaleMode
     UnityEngine.SceneManagement.Scene
@@ -12637,6 +12626,59 @@ Summary:
     UnityEngine.SurfaceEffector2D
     UnityEngine.SystemClock
     UnityEngine.SystemInfo
+        unsupportedIdentifier
+        .ctor()
+        get_batteryLevel()
+        get_batteryStatus()
+        get_copyTextureSupport()
+        get_deviceModel()
+        get_deviceName()
+        get_deviceType()
+        get_deviceUniqueIdentifier()
+        get_graphicsDeviceID()
+        get_graphicsDeviceName()
+        get_graphicsDeviceType()
+        get_graphicsDeviceVendor()
+        get_graphicsDeviceVendorID()
+        get_graphicsDeviceVersion()
+        get_graphicsMemorySize()
+        get_graphicsMultiThreaded()
+        get_graphicsPixelFillrate()
+        get_graphicsShaderLevel()
+        get_graphicsUVStartsAtTop()
+        get_maxCubemapSize()
+        get_maxRenderTextureSize()
+        get_maxTextureSize()
+        get_npotSupport()
+        get_operatingSystem()
+        get_operatingSystemFamily()
+        get_processorCount()
+        get_processorFrequency()
+        get_processorType()
+        get_supportedRenderTargetCount()
+        get_supports2DArrayTextures()
+        get_supports3DRenderTextures()
+        get_supports3DTextures()
+        get_supportsAccelerometer()
+        get_supportsAudio()
+        get_supportsComputeShaders()
+        get_supportsCubemapArrayTextures()
+        get_supportsImageEffects()
+        get_supportsInstancing()
+        get_supportsLocationService()
+        get_supportsMotionVectors()
+        get_supportsRawShadowDepthSampling()
+        get_supportsRenderTextures()
+        get_supportsRenderToCubemap()
+        get_supportsShadows()
+        get_supportsSparseTextures()
+        get_supportsStencil()
+        get_supportsVertexPrograms()
+        get_supportsVibration()
+        get_systemMemorySize()
+        get_usesReversedZBuffer()
+        SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat)
+        SupportsTextureFormat(UnityEngine.TextureFormat)
     UnityEngine.SystemLanguage
     UnityEngine.TargetJoint2D
     UnityEngine.Terrain

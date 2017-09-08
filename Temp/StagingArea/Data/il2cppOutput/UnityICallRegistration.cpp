@@ -12,6 +12,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AnimationCurve
 
+	//Start Registrations for type : UnityEngine.Application
+
+		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+		void Register_UnityEngine_Application_get_platform();
+		Register_UnityEngine_Application_get_platform();
+
+	//End Registrations for type : UnityEngine.Application
+
 	//Start Registrations for type : UnityEngine.AssetBundleCreateRequest
 
 		//System.Void UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks()
@@ -448,6 +456,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.GUILayer
 
+	//Start Registrations for type : UnityEngine.Gyroscope
+
+		//System.Void UnityEngine.Gyroscope::INTERNAL_CALL_attitude_Internal(System.Int32,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Gyroscope_INTERNAL_CALL_attitude_Internal();
+		Register_UnityEngine_Gyroscope_INTERNAL_CALL_attitude_Internal();
+
+		//System.Void UnityEngine.Gyroscope::setEnabled_Internal(System.Int32,System.Boolean)
+		void Register_UnityEngine_Gyroscope_setEnabled_Internal();
+		Register_UnityEngine_Gyroscope_setEnabled_Internal();
+
+	//End Registrations for type : UnityEngine.Gyroscope
+
 	//Start Registrations for type : UnityEngine.Input
 
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
@@ -457,6 +477,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Input::GetMouseButtonDown(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButtonDown();
 		Register_UnityEngine_Input_GetMouseButtonDown();
+
+		//System.Int32 UnityEngine.Input::mainGyroIndex_Internal()
+		void Register_UnityEngine_Input_mainGyroIndex_Internal();
+		Register_UnityEngine_Input_mainGyroIndex_Internal();
 
 		//System.Single UnityEngine.Input::GetAxis(System.String)
 		void Register_UnityEngine_Input_GetAxis();
@@ -787,6 +811,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_SphereCollider_set_radius();
 
 	//End Registrations for type : UnityEngine.SphereCollider
+
+	//Start Registrations for type : UnityEngine.SystemInfo
+
+		//System.Boolean UnityEngine.SystemInfo::get_supportsGyroscope()
+		void Register_UnityEngine_SystemInfo_get_supportsGyroscope();
+		Register_UnityEngine_SystemInfo_get_supportsGyroscope();
+
+	//End Registrations for type : UnityEngine.SystemInfo
 
 	//Start Registrations for type : UnityEngine.Time
 

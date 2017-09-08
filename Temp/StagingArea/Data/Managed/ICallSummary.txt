@@ -1,5 +1,6 @@
 UnityEngine.AnimationCurve::Cleanup
 UnityEngine.AnimationCurve::Init
+UnityEngine.Application::get_platform
 UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks
 UnityEngine.AssetBundleCreateRequest::get_assetBundle
 UnityEngine.AssetBundleRequest::get_asset
@@ -91,8 +92,11 @@ UnityEngine.GameObject::get_transform
 UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
 UnityEngine.GUILayer::INTERNAL_CALL_HitTest
+UnityEngine.Gyroscope::INTERNAL_CALL_attitude_Internal
+UnityEngine.Gyroscope::setEnabled_Internal
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown
+UnityEngine.Input::mainGyroIndex_Internal
 UnityEngine.Input::GetAxis
 UnityEngine.Input::INTERNAL_get_mousePosition
 UnityEngine.MeshCollider::get_convex
@@ -163,6 +167,7 @@ UnityEngine.SphereCollider::get_radius
 UnityEngine.SphereCollider::INTERNAL_get_center
 UnityEngine.SphereCollider::INTERNAL_set_center
 UnityEngine.SphereCollider::set_radius
+UnityEngine.SystemInfo::get_supportsGyroscope
 UnityEngine.Time::get_deltaTime
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::INTERNAL_get_localRotation

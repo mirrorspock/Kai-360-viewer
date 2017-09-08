@@ -1,5 +1,6 @@
 <linker>
 <assembly fullname="Assembly-CSharp">
 <type fullname="cameraControl" preserve="all"/>
+<type fullname="CameraRotateUsingPhoneGyro" preserve="all"/>
 </assembly>
 </linker>
